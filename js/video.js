@@ -5,8 +5,8 @@ window.addEventListener("load", function() {
 	video=document.querySelector("#player1");
 	video.autoplay=false;
 	video.loop=false;
-	console.log("AutoPlay is", video.autoplay);	
-	console.log("Loop is", video.loop);
+	console.log("AutoPlay is set to", video.autoplay);	
+	console.log("Loop is set to", video.loop);
 });
 
 
